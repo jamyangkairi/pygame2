@@ -4,6 +4,10 @@ import pygame
 import time
 import random
 from pygame import mixer
+
+# Initialising pygame
+pygame.init()
+
 mixer.init()
 
 snake_speed = 15
@@ -20,7 +24,7 @@ green = pygame.Color(0, 255, 0)
 blue = pygame.Color(0, 0, 255)
  
 # Initialising pygame
-pygame.init()
+#pygame.init()
 
 mixer.music.load("Monkeys-Spinning-Monkeys(chosic.com).mp3")
 mixer.music.play(-1)
